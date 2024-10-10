@@ -1,0 +1,17 @@
+
+.productname{
+    width: 80%;
+    margin-bottom: 15px;
+    /* flex-grow: 1; */
+    height: 100%;
+}
+.text-p{
+    color: rgb(3, 93, 28);
+}
+.create{
+    margin-top: 20px;
+}
+.productname input[type="text"],[type="password"]{
+    margin-left: 0px;
+    width:100%;
+}

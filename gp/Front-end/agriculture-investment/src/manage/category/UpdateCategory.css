@@ -1,0 +1,36 @@
+.manage-products1{
+    height:800px;
+    
+}
+.updatecategory{
+    width: 80%;
+    
+}
+.categoryname1{
+    
+    margin-bottom: 15px;
+}
+.categoryname1 input[type="text"],[type="password"]{
+  margin-left: 0px;
+}
+
+.createe{
+    position: relative;
+    left:50px;
+    top:15px;
+    width: 150px;
+}
+@keyframes slideInFromRight {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(50%);
+    }
+  }
+.alert-container1 {
+    position: fixed;
+    top: 100px;
+    right: 20px;
+    animation: slideInFromRight 1s ease-out;
+  }

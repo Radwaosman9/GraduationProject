@@ -1,0 +1,185 @@
+.user-profile-card {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    height: 100vh;
+  }
+  
+  .card5 {
+    width: 700px;
+    height: 400px;
+    /* border: 1px solid #ccc; */
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card-body {
+    padding: 20px;
+  }
+  .avatar{
+    width: 30%;
+  }
+  .avatar img {
+    width: 150px;
+    height: 100px;
+    /* border-radius: 50%; */
+    /* margin-bottom: 10px; */
+  }
+  
+  .user-details h2 {
+    /* margin-bottom: 10px; */
+    color: black;
+    font-size: 30px;
+    margin-top: 10px;
+    /* position: relative;
+    bottom: 110px;
+    right: 20px; */
+  }
+  
+  .user-details p {
+  margin-top: 0;
+  /* position: relative;
+  bottom: 30px; */
+  font-size: 20px;
+  }
+  .updateprofile button {
+    padding: 0;
+    margin: 0;
+    border: none;
+    background: none;
+    cursor: pointer;
+    /* margin-left: 550px; */
+    /* position: relative;
+    left: 550px;
+    bottom: 100px; */
+  }
+  
+  .updateprofile button {
+    --primary-color: #111;
+    --hovered-color: rgb(3, 93, 28);
+    position: relative;
+    display: flex;
+    font-weight: 600;
+    font-size: 20px;
+    gap: 0.5rem;
+    align-items: center;
+  }
+  
+  .updateprofile button p {
+    margin: 0;
+    position: relative;
+    font-size: 20px;
+    color: var(--primary-color);
+  }
+  
+  .updateprofile button::after {
+    position: absolute;
+    content: "";
+    width: 0;
+    left: 0;
+    bottom: -7px;
+    background: var(--hovered-color);
+    height: 2px;
+    transition: 0.3s ease-out;
+  }
+  
+  .updateprofile button p::before {
+    position: absolute;
+  /*   box-sizing: border-box; */
+  content: "Update";
+  width: 0%;
+  inset: 0;
+  color: var(--hovered-color);
+  overflow: hidden;
+  transition: 0.3s ease-out;
+  }
+  
+  .updateprofile button:hover::after {
+    width: 100%;
+  }
+  
+  .updateprofile button:hover p::before {
+    width: 100%;
+  }
+  
+  .updateprofile button:hover svg {
+    transform: translateX(4px);
+   color: var(--hovered-color);
+  }
+  .updateprofile button svg {
+    color: var(--primary-color);
+    transition: 0.2s;
+    /* position: relative; */
+    width: 15px;
+    transition-delay: 0.2s;
+  }
+  .history button {
+    padding: 0;
+    margin: 0;
+    border: none;
+    background: none;
+    cursor: pointer;
+    /* position: relative;
+    left: 550px;
+    bottom: 100px; */
+  }
+  
+  .history button {
+    --primary-color: #111;
+    --hovered-color: rgb(3, 93, 28);
+    position: relative;
+    display: flex;
+    font-weight: 600;
+    font-size: 20px;
+    gap: 0.5rem;
+    align-items: center;
+  }
+  
+  .history button p {
+    margin: 0;
+    position: relative;
+    font-size: 20px;
+    color: var(--primary-color);
+  }
+  
+  .history button::after {
+    position: absolute;
+    content: "";
+    width: 0;
+    left: 0;
+    bottom: -7px;
+    background: var(--hovered-color);
+    height: 2px;
+    transition: 0.3s ease-out;
+  }
+  
+  .history button p::before {
+    position: absolute;
+    box-sizing: border-box;
+  content: "History";
+  width: 0%;
+  inset: 0;
+  color: var(--hovered-color);
+  overflow: hidden;
+  transition: 0.3s ease-out;
+  }
+  
+  .history button:hover::after {
+    width: 100%;
+  }
+  
+  .history button:hover p::before {
+    width: 100%;
+  }
+  
+  .history button:hover svg {
+    transform: translateX(4px);
+   color: var(--hovered-color);
+  }
+  .history button svg {
+    color: var(--primary-color);
+    transition: 0.2s;
+    position: relative;
+    width: 15px;
+    transition-delay: 0.2s;
+  }

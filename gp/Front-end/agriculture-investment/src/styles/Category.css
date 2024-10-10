@@ -1,0 +1,58 @@
+.container {
+    /* width: 100%; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* text-align: center; */
+    /* margin: 0 auto;
+    padding: 20px 0; */
+    box-sizing: border-box;
+}
+.full-width-container {
+    width: 100vw;
+    
+}
+.card-container {
+    height: fit-content;
+    width: 350px;
+    overflow: hidden;
+    box-shadow: 0px 0px 15px -5px;
+    transition: 0.3s;
+    animation: ease-in;
+    margin: 20px;
+}
+
+.card-container:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 15px 0px;
+}
+
+.image-container {
+    overflow: hidden;
+}
+
+.image-container img {
+    object-fit: cover;
+    height: 250px;
+    width: 100%;
+}
+
+.buttonc button {
+    width: 100%;
+    background: rgb(3, 93, 28);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 20px;
+    transition: background 0.3s;
+}
+
+.buttonc button:hover {
+    background: rgb(141, 196, 39);
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}

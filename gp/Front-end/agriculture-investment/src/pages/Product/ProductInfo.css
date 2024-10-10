@@ -1,0 +1,143 @@
+.movie-image {
+  width: 100%;
+  border-radius: 10px;
+  height: 300px;
+}
+
+/* .movie-details-container review {
+  border-radius: 20px;
+  border: 10px solid #9c4242;
+  margin-bottom: 1rem;
+  padding: 1rem;
+} */
+
+/* .review {
+width: 100px;
+font-size: 30px;
+border-radius: 5px;
+border: 1px solid #ddd;
+margin-bottom: 1rem;
+padding: 1rem;
+} */
+.te{
+  /* top:10px;
+  left:7px; */
+  width:250px;
+  height: 120px;
+  border-radius: 20px;
+  border: 2px solid rgb(3, 93, 28);
+  margin-top: 20px;
+  /* text-align: center; */
+
+}
+.o1{
+/* position: absolute;
+top: 655px;
+left:300px; */
+width:130px;
+height: 60px;
+color:#fff;
+border:none;
+border-radius: 15px;
+font-size: 20px;
+text-align: center;
+background: rgb(66, 140, 85);
+}
+.o1:hover{
+background:  rgb(141, 196, 39);
+}
+/* .mb-9{
+  top:60px;
+  left:7px;
+} */
+.col-2 {
+/* position:relative; */
+/* font-weight: bold; */
+font-size: 25px;
+color: rgb(66, 140, 85);
+width: 70%;
+}
+.col-2 p{
+color: black;
+width: 100%;
+
+}
+.col-2 h3 {
+margin-bottom: 20px;
+}
+.re{
+margin-top: 40px;
+color: white;
+text-align: center;
+font-size: 35px;
+background-color:rgb(66, 140, 85);
+border-radius: 20px;
+border: 3px solid rgb(3, 93, 28);
+}
+.review-container {
+border-radius: 5px;
+border: 1px solid #dfdcdc;
+background-color: #faf7f7;
+margin-bottom: 1rem;
+padding: 1rem;
+width:fit-content;
+
+}
+.fav-btn1 {
+display: flex;
+align-items: center;
+justify-content: center;
+width: 30px;
+height: 20px;
+border-radius: 10px;
+border: none;
+background-color: transparent;
+/* position: relative;
+bottom:100px;
+left: 370px; */
+}
+
+
+
+.fav-icon1 {
+width: 30px;
+height: 30px;
+transition: .2s linear;
+/* position: relative;
+top: 4px;*/
+margin-top: 25px;
+} 
+
+.fav-icon1 path {
+fill: black;
+transition: .2s linear;
+}
+
+
+.fav-btn1:hover > .fav-icon1 path {
+fill: rgb(138, 6, 8);
+}
+.fav-btn1:hover > .fav-icon1 {
+transform: scale(1.2);
+}
+.buynow1{
+width: 250px;
+background: rgb(66, 140, 85);
+border: none;
+color: white;
+/* position: relative;
+bottom: 80px;
+left: 350px; */
+padding: 15px 32px;
+align-items:center;
+text-decoration: none;
+font-size: 20px;
+border-radius: 10px;
+/* margin-left: auto; */
+margin-top: 25px;
+
+}
+.buynow1:hover{
+background:  rgb(141, 196, 39);
+
+}

@@ -1,0 +1,256 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.main-header {
+  background-color: rgb(3, 93, 28);
+  color: white;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.logo {
+  width: 80px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  margin: 0 10px;
+ 
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
+  
+}
+
+nav ul li a:hover {
+  color: rgb(175, 255, 28);
+  cursor: pointer;
+}
+
+.fav-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 10px;
+  border: none;
+  background-color: transparent;
+}
+
+.fav-icon {
+  width: 30px;
+  height: 30px;
+  transition: .2s linear;
+}
+
+.fav-icon path {
+  fill: white;
+  transition: .2s linear;
+}
+
+.fav-btn:hover .fav-icon path {
+  fill: rgb(138, 6, 8);
+}
+
+.login-img {
+  width: 30px;
+  height: 30px;
+  margin-left: 10px; /* Ensures spacing between icons */
+}
+
+.iconss {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.group {
+  display: flex;
+  align-items: center;
+  position: relative;
+  max-width: 350px;
+}
+
+.input1 {
+  width: 100%;
+  height: 40px;
+  padding: 0 1rem;
+  padding-left: 2.5rem;
+  border: 2px solid transparent;
+  border-radius: 8px;
+  outline: none;
+  background-color: #f3f3f4;
+  color: #0d0c22;
+  transition: 0.3s ease;
+}
+
+.input1::placeholder {
+  color: #9e9ea7;
+}
+
+.input1:focus,
+.input1:hover {
+  border-color: rgba(0, 48, 73, 0.4);
+  background-color: #fff;
+  box-shadow: 0 0 0 4px rgb(0 48 73 / 10%);
+}
+
+.icon1 {
+  position: absolute;
+  left: 1rem;
+  fill: #9e9ea7;
+  width: 1rem;
+  height: 1rem;
+}
+
+/* Management */
+.paste-button {
+  position: relative;
+  display: inline-block;
+}
+
+.buttonmanage {
+  background-color: rgb(3, 93, 28);
+  color: white;
+  padding: 10px 5px;
+  font-size: 24px;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  min-width: 200px;
+  background-color: white;
+  border: 2px solid #4CAF50;
+  border-radius: 0px 15px 15px 15px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-content a {
+  color: #4CAF50;
+  padding: 8px 10px;
+  text-decoration: none;
+  display: block;
+  transition: 0.1s;
+  font-size: 18px;
+}
+
+.dropdown-content a:hover {
+  background-color: #4CAF50;
+  color: #212121;
+}
+
+.dropdown-content a:focus {
+  background-color: #212121;
+  color: #4CAF50;
+}
+
+.dropdown-content #top:hover {
+  border-radius: 0px 13px 0px 0px;
+}
+
+.dropdown-content #bottom:hover {
+  border-radius: 0px 0px 13px 13px;
+}
+
+.paste-button:hover button {
+  border-radius: 15px 15px 0px 0px;
+}
+
+.paste-button:hover .dropdown-content {
+  display: block;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .main-header {
+      flex-direction: column;
+      align-items: center;
+      height: auto;
+  }
+
+  .logo {
+      width: 60px;
+      height: 60px;
+      margin-bottom: 10px;
+  }
+
+  nav ul {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  nav ul li {
+      margin: 5px 0;
+  }
+
+  .group {
+      width: 90%;
+      margin: 10px 0;
+      left: 0; /* Reset left position */
+  }
+
+  .input1 {
+      width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .buttonmanage {
+      font-size: 16px;
+      padding: 8px 4px;
+  }
+
+  .group {
+      width: 100%;
+  }
+}
+.card4 {
+  width: 50px;
+  height: 50px;
+  outline: none;
+  border: none;
+  background: rgb(3, 93, 28);
+  /* border-radius: 5px 5px 90px 5px; */
+  /* box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px; */
+  transition: .2s ease-in-out;
+
+}
+
+.discord {
+  margin-top: -.15em;
+  margin-left: -0.3em;
+  fill: white;
+}

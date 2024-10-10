@@ -1,0 +1,74 @@
+.form{
+    height: 530px;
+    /* margin-left: 800px; */
+}
+.form .hh2{
+    margin-top: 25px;
+    margin-left: 50px;
+    text-align: center;
+}
+.registerinput input[type="text"],.registerinput input[type="password"] {
+    /* position:absolute; */
+    outline:none ;
+    border:none;
+    width:250px;
+    height:35px;
+    border-bottom: 2px solid rgb(3, 93, 28);;
+    background: none;
+    padding: 5px;
+    color: #fff;
+    
+}
+.registerinput input::placeholder{
+    color: #fff;
+    font-size: 20px;
+}
+.name input[type="text"]{
+    /* top:100px;
+    left:50px; */
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.us input[type="text"]{
+    /* top: 150px; */
+    margin-bottom: 20px;
+}
+
+.ps input[type="password"]{
+    /* top: 200px; */
+    margin-bottom: 20px;
+}
+.cs input[type="password"]{
+    /* position: relative; */
+    /* top:250px; */
+    margin-bottom: 20px;
+}
+.ph input[type="text"]{
+    /* top:300px; */
+    margin-bottom: 20px;
+}
+.addr input[type="text"]{
+    /* top:350px; */
+    margin-bottom: 20px;
+}
+.register-btn button{
+        /* position: absolute;
+        top: 420px;
+        left:110px; */
+        width:130px;
+        height: 60px;
+        color:#fff;
+        border-radius: 15px;
+        font-size: 20px;
+        text-align: center;
+        background: rgb(3, 93, 28);
+        margin-left: 120px;
+    }
+.register-btn button:hover{
+        background:  rgb(141, 196, 39);
+        
+    }
+a{
+        color: white;
+        text-decoration: none;
+    }

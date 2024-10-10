@@ -1,0 +1,131 @@
+/* Chat.css */
+
+.chat-card {
+    width: 90%;
+    max-width: 600px;
+    margin: 0 auto;
+    height: 70vh;
+    padding: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f7f7f7;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.chat-header {
+    background-color: rgb(145, 203, 162);
+    color: black;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px 10px 0 0;
+}
+
+.h2 {
+    margin: 0;
+}
+
+.chat-body {
+    flex-grow: 1;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    overflow-y: auto;
+    max-height: 400px; /* Adjust this value to control chat body height */
+}
+
+.message {
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 10px;
+    max-width: 80%;
+}
+
+.incoming {
+    background-color: #e9ecef;
+    align-self: flex-start;
+}
+
+.outgoing {
+    background-color: rgb(3, 93, 28);
+    color: white;
+    align-self: flex-end;
+}
+
+.chat-footer {
+    display: flex;
+    border-top: 1px solid #ccc;
+    padding: 10px;
+}
+
+.chat-footer input {
+    flex-grow: 1;
+    padding: 20px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-bottom: 2px;
+}
+
+.chat-footer button {
+    padding: 10px 20px;
+    font-size: 1em;
+    color: white;
+    background-color: rgb(3, 93, 28);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+    transition: background-color 0.3s ease;
+    height: 65px;
+    width: 90px;
+}
+
+.chat-footer button:hover {
+    background-color: rgb(3, 127, 38);
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    .chat-card {
+        width: 100%;
+        height: 80vh;
+        padding: 10px;
+    }
+
+    .chat-footer input {
+        padding: 15px;
+        font-size: 0.9em;
+    }
+
+    .chat-footer button {
+        padding: 10px 15px;
+        font-size: 0.9em;
+        height: 60px;
+        width: 80px;
+    }
+}
+
+@media (max-width: 480px) {
+    .chat-card {
+        width: 100%;
+        height: 90vh;
+        padding: 5px;
+    }
+
+    .chat-footer input {
+        padding: 10px;
+        font-size: 0.8em;
+    }
+
+    .chat-footer button {
+        padding: 8px 10px;
+        font-size: 0.8em;
+        height: 50px;
+        width: 70px;
+    }
+}
